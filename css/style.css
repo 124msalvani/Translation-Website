@@ -1,8 +1,0 @@
-input, textarea, button {
-    display: block;
-    width: calc(100% - 1.6em);
-    margin: .8em;
-}
-textarea {
-    min-height: 200px;
-}

@@ -1,0 +1,13 @@
+#input, #output, #submit {
+    display: block;
+    width: calc(100% - 1.6em);
+    margin: .8em;
+}
+#output {
+    min-height: 200px;
+}
+
+/* <input id="text" placeholder="Input"></input>
+        <button id="submit">Translate</button>
+        <textarea id="output" disabled>
+        </textarea>
