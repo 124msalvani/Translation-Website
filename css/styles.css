@@ -1,20 +1,40 @@
-.bg-pink{
-    background-color: pink;
+body, .row {
+  background: rgb(192,236,255);
+background: linear-gradient(90deg, rgba(192,236,255,1) 7%, rgba(230,235,250,1) 93%);
+font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
-.bg-purple{
-    background-color: lavender;
+.white-overlay{
+  background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0.26474471830985913) 7%, rgba(255,255,255,0.2591109154929577) 83%, rgba(255,255,255,0) 100%);
+  
+}
+
+.display-5{
+  font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
 }
 
 textarea{
     width: calc(100% - 1.6em);
     height: auto;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 230;
+}
+
+#output-text{
+  background-color: rgb(245, 245, 245);
 }
 
 .dropdown-container {
     position: relative;
     margin-bottom: 10px;
     width: 100%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
   }
   
   .dropdown-container .dropdown-toggle {
